@@ -1,0 +1,32 @@
+*{
+  transition: all 0.3s ease-out;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #efefef;
+  font-size: 1rem;
+}
+h1 {
+  font-size: 2rem;
+  margin: 0;
+  font-weight: 600;
+}
+.el-row {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.el-checkbox__input.is-checked .el-checkbox__inner {
+  background-color: #808080 !important;
+  border-color: #808080 !important;
+}
+.el-input__inner{
+  border-radius: 4px;
+}

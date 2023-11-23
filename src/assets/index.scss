@@ -1,0 +1,10 @@
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $main: (
+    'padding': 100px,
+  ),
+  $button: (
+    'hover-bg-color': red,
+  )
+);
+
+@use 'element-plus/theme-chalk/src/index.scss' as *;
